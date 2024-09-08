@@ -11430,12 +11430,39 @@ pre {
 }
 
 .page-footer {
-  background: #fcfdff;
+  background-color: #000;
+  color: white;
+  text-align: center;
 }
 
 .page-footer .row {
   height: 100px;
 }
+
+img{
+  height: 200px;
+  width: 280px;
+}
+#project-display{
+  display: flex;
+}
+#project-card{
+  width: 300px !important;
+  height: 250px;
+  text-align: center;
+  margin: 20px;
+  margin-left: 50px;
+  border: 2px solid grey;
+  box-shadow: 10px 10px 25px black;
+
+}
+
+
+
+
+
+
+
 
 .page-footer p {
   margin-bottom: 0;
@@ -11450,6 +11477,16 @@ pre {
   margin-left: auto;
 }
 
+#project-section{
+  width: 1200px;
+  height: 500px;
+  text-align: center;
+  margin-left: 180px;
+}
+#project-display{
+  width: 900px;
+  height: 400px;
+}
 @media (max-width: 767.98px) {
   .page-footer {
     padding: 20px 0;
